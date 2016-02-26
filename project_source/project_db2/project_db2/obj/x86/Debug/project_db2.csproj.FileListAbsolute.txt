@@ -1,0 +1,30 @@
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\bin\Debug\project_db2.exe
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\bin\Debug\project_db2.pdb
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\bin\Debug\MahApps.Metro.dll
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\bin\Debug\System.Windows.Interactivity.dll
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\bin\Debug\MahApps.Metro.pdb
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\bin\Debug\MahApps.Metro.xml
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\obj\x86\Debug\project_db2.csprojResolveAssemblyReference.cache
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\obj\x86\Debug\project_db2.Properties.Resources.resources
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\obj\x86\Debug\project_db2.csproj.GenerateResource.Cache
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\obj\x86\Debug\project_db2.exe
+c:\users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\obj\x86\Debug\project_db2.pdb
+C:\Users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\bin\Debug\MetroFramework.dll
+C:\Users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\obj\x86\Debug\project_db2.Main.resources
+C:\Users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\obj\x86\Debug\project_db2.map_view.resources
+C:\Users\stori\documents\visual studio 2010\Projects\project_db2\project_db2\bin\Debug\project_db2.exe.config
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\bin\Debug\project_db2.exe.config
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\obj\x86\Debug\project_db2.exe
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\obj\x86\Debug\project_db2.pdb
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\bin\Debug\project_db2.exe
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\bin\Debug\project_db2.pdb
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\bin\Debug\MahApps.Metro.dll
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\bin\Debug\MetroFramework.dll
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\bin\Debug\MahApps.Metro.pdb
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\bin\Debug\MahApps.Metro.xml
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\obj\x86\Debug\project_db2.csprojResolveAssemblyReference.cache
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\obj\x86\Debug\project_db2.Main.resources
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\obj\x86\Debug\project_db2.map_view.resources
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\obj\x86\Debug\project_db2.Properties.Resources.resources
+C:\Users\stori\Desktop\project_source\project_db2\project_db2\obj\x86\Debug\project_db2.csproj.GenerateResource.Cache

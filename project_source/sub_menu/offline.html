@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script type="text/javascript">
+			function login()
+			{
+				window.external.show_login_page();
+			}
+			function sign_up()
+			{
+				window.external.show_sign_up_page();
+			}
+		</script>
+		<table width="100%">
+			<tr>
+				<td width="100%">
+					<button width="100%" onclick="login();"><img src="src/login.png" width="100%">로그인</button>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%">
+					<button width="100%" onclick="sign_up();"><img src="src/sign_up.png" width="100%">회원가입</button>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

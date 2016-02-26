@@ -1,0 +1,66 @@
+<?php
+	$id="";
+	if(empty($_GET['id'])!=true)
+	{
+		$id = $_GET['id'];
+		echo '
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Author Card - CodePen</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+    <script src="js/modernizr.js"></script>
+
+</head>
+
+<body>
+
+  <!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Author Card</title>
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+	<script src="https://raw.github.com/aFarkas/html5shiv/master/src/html5shiv.js"></script>	
+</head>
+<body>
+	<div id="bg"></div>
+		<div class="card">
+			<div class="profile">
+				<img src="http://f.cl.ly/items/0z1w0L092q070Q180K3p/36a9325cb67f11e18bb812313804a181_7.jpeg"><div class="border"></div>
+			</div>
+			<div class="name"><p>'.$id.'</p></div>
+			<div class="numbers">
+			<table id="stats">
+				<tbody>
+				<tr>
+					<td>정보</td>
+				</tr>
+				</tbody>
+			</table>
+			<div class="divider"></div>
+			</div>
+		</div>
+
+	<div id="credits">
+	<p>
+		
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</p>
+	</div>
+</body>
+</html>
+
+  <script src="http://codepen.io/assets/libs/fullpage/jquery.js"></script>
+
+</body>
+
+</html>';
+	}
+?>

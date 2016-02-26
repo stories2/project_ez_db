@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Metro UI CSS - это набор стилей для создания сайтов с интерфейсом, похожим на Windows 8 Metro UI. Набор стилей разрабатывается как дополнение к любому другому CSS фрейм ворку, например можно использовать в качестве основного twitter bootstrap, а Metro UI CSS как дополнение для посторения частей интерфейса" />
+    <meta data-annotation="Metro UI CSS - это набор стилей для создания сайтов с интерфейсом, похожим на Windows 8 Metro UI. Набор стилей разрабатывается как дополнение к любому другому CSS фрейм ворку, например можно использовать в качестве основного twitter bootstrap, а Metro UI CSS как дополнение для посторения частей интерфейса" />
+    <meta name="author" content="Сергей Пименов (ака olton)" />
+    <meta name="copyright" content="2012, Сергей Пименов" />
+    <meta name="license" content="Licensed under MIT License" />
+
+    <title>Metro UI CSS Framework Demo</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">-->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/prettify.css">
+    <link rel="stylesheet" type="text/css" href="css/metro.css">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/prettify.js"></script>
+    <script type="text/javascript" src="js/metro.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="js/google-analytics.js"></script>
+
+    <style type="text/css">
+        body {
+            background: #004050;
+        }
+        .metro {
+            width: 940px;
+            overflow: hidden;
+        }
+        .start {
+        }
+    </style>
+
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <a class="pull-left" style="margin-top: 7px; margin-right: 5px;" href="/">
+                    
+                </a>
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" >어서오세요</a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container metro"><br>
+        <h1 class="start">회원가입</h1>
+        
+        <form class="metro-form" style="margin-top: 20px;" action="make_new.php" method="post" enctype="multipart/form-data">
+            <div class="metro-form-control" style="width: 300px">
+                <label>아이디 (영문 4~10자리)</label>
+                <div class="metro-text-box">
+                    <input name="id" type="text" placeholder="아이디" pattern="[a-zA-Z]{4,10}" title="영문 4~10자리" />
+                    <span class="helper"></span>
+                </div>
+            </div>
+
+            <div class="metro-form-control" style="width: 300px">
+                <label>비밀번호 (영문 6~10자리)</label>
+                <div class="metro-text-box">
+                    <input name="pw" type="text" value="" placeholder="비밀번호" pattern="[a-zA-Z]{6,10}" title="영문 6~10자리" />
+                    <span class="helper"></span>
+                </div>
+            </div>
+            <div class="metro-form-control" style="width: 300px">
+                <label>이메일 (실제 이메일 주소)</label>
+                <div class="metro-text-box">
+                    <input name="mail" type="text" value="" placeholder="메일주소" pattern="^[a-zA-Z0-9]+@[a-zA-Z0-9]+$"/>
+                    <span class="helper"></span>
+                </div>
+            </div>
+            <div class="metro-form-control" style="width: 300px">
+                <label>프로필 사진</label>
+                <div class="metro-text-box">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="20000"/>
+                    <input name="pic" type="file" size="2000000" placeholder="프로필 사진" accept=".bmp" />
+                    <span class="helper"></span>
+                </div>
+            </div>
+            <input type="submit" class="metro-button" value="완료">
+        </form>
+
+
+        <footer class="footer">
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        $(".metro").metro();
+    </script>
+</body>
+</html>
